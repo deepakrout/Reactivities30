@@ -4,6 +4,10 @@ using Microsoft.Extensions.Options;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
+/*
+dotnet user-secrets set "SendGrid:User" ""
+*/
+
 namespace Infrastructure.Email
 {
     public class EmailSender : IEmailSender
